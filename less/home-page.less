@@ -18,12 +18,14 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    
 
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+      box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5),0 6px 16px 0 rgba(0,0,0,0);
     }
   }
 
@@ -58,18 +60,61 @@
       }
 
       .btn {
+        .button(1.5rem, whitesmoke, black);
       }
+
+      .btn:hover {
+        background-color: whitesmoke;
+        color: black;
+    }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
       
+      
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+        box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5),0 6px 16px 0 rgba(0,0,0,0);
       }
     }
   }
 }// home
+
+.magazine {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+  .form {
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5rem;
+    color: #23293B;
+
+  }
+
+  .submit {
+    .button(1.5rem, whitesmoke, black); 
+    margin: 3rem;
+  }
+
+  .submit:hover {
+        background-color: whitesmoke;
+        color: black;
+    }
+} //ending form action/
+
+@media @phone {
+  .homepage1();
+} // end of media //
