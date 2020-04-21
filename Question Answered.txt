@@ -1,0 +1,37 @@
+1- What is the difference between an adaptive website and a fully responsive website?
+
+Responsive is fluid and adapts to the size of the screen no matter what the target device.
+
+Adaptive design, on the other hand, uses static layouts based on breakpoints which don’t respond once they’re initially loaded.
+
+
+
+2- Describe what it means to be mobile first vs desktop first.
+mobile first is when you create a website on a mobile and then work your way up to the desktop size. 
+
+desktop first is what we have been doing, we create the website to fit the desktop and then work down to fit the phone. 
+
+
+
+3- What does font-size: 62.5% in the html tag do for us when using rem units?
+
+62.5% makes it easy to do the math on a rem. 62.55 = 10px so if you want to make a font-size 25px it would be 2.5rem
+ 
+
+
+4- How would you describe preprocessing to someone new to CSS?
+
+A CSS preprocessor is a program that lets you generate CSS from the preprocessor's own unique syntax. There are many CSS preprocessors to choose from, however most CSS preprocessors will add some features that don't exist in pure CSS, such as mixin, nesting selector, inheritance selector, and so on. These features make the CSS structure more readable and easier to maintain.
+
+
+
+5- What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I love the fact that I have less-watch-compliler because it spots your errors immediately. 
+
+the functions are nice so you don't have to be so repeative. Also the mixins are nice so you can keep them in a sperate file if you need to adjust elements. 
+
+I think me being in my head makes it difficult but once I got it, I don't think I would want to change it. 
+
+
+
